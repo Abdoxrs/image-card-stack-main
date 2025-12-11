@@ -2,5 +2,6 @@
 
 body {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  background-color: black;
+  @apply flex h-screen w-screen items-center justify-center
+  text-cyan-600 bg-black
 }
